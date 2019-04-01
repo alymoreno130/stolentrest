@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	
+	
+<!-- Individual page (1) -->
+	
+
+	
+	
+	<head>
+		<title>Stolentrest</title>
+		<!-- 	link your fonts from google fonts. this must be before you link your own style sheets -->
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Playfair+Display|Share:400,700" rel="stylesheet">
+		<!-- add your css files -->
+		<link href="css/fonts.css" rel="stylesheet"/>
+
+
+		<link href="css/desktop-layout.css" rel="stylesheet"/>
+		<link href="css/tablet-layout.css" rel="stylesheet"/>
+		<link href="css/mobile-layout.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+
+	</body>
+	
+
+</html> 
