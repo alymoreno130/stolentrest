@@ -1,4 +1,25 @@
 @media (min-width: 768px) {
 
 
+/*Nav Bar stuff*/
+.nav-bar{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	display: flex;
+}
+
+#round-logo{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+
+}
+
+
+
+
+
+
+
 }
