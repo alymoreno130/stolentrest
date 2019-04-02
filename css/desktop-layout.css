@@ -3,22 +3,51 @@
 
 /*Nav Bar stuff*/
 .nav-bar{
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	display: flex;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+/*	display: inline-flex;
+	align-items: stretch;*/
+	padding:0px;
+	border-bottom:1px solid blue;
+	background-color:#e2e2e2;
+
 }
+.nav-padding{
+	width:90%;
+	margin:auto;
+	border:1px solid red;
+}
+
 
 #round-logo{
 	border-radius: 50%;
 	width: 50px;
 	height: 50px;
+}
+
+.float-right{
+	float:right;
+}
+
+.nav-blocks{
+	display:inline-block;
+	margin:10px;
+}
+
+.image-column-left{
 
 }
 
+.image-column-center{
+	
+}
 
-
-
+.image-column-left{
+	
+}
 
 
 
