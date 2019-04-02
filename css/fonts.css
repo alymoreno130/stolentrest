@@ -1,3 +1,35 @@
+/*Colors*/
+
+/*
+#e60000
+#2b2d42
+#8d99ae
+#edf2f4
+#ef233c
+*/
+
+/*fonts*/
+
+/*
+So it'll use Arial when Helvetica isn't available
+
+font-family: 'Helvetica', 'Arial', sans-serif;
+*/
+
+
+/**/
 h1{
-	
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 40;
+}
+
+
+h2{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 35;
+}
+
+h3{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 30;
 }
