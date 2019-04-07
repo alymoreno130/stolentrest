@@ -165,3 +165,23 @@
 	
 	height:55px;
 }
+.boards-name{
+	font-family: 'Helvetica','Arial', sans-serif;
+	font-size: 36px;
+	justify-content: center;
+	margin-top:12%;
+	margin-left: 25%;
+}
+.boards-following{
+	font-family: 'Helvetica','Arial', sans-serif;
+	font-size: 15px;
+	margin-left: 26%;
+	margin-top: -20px;
+}
+.prof-pic{
+	float: right;
+	height: 150px;
+	width: auto;
+	margin-right: 30%;
+	margin-top: -130px;
+}
