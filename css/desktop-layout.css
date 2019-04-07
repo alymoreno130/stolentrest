@@ -185,3 +185,21 @@
 	margin-right: 30%;
 	margin-top: -130px;
 }
+.boards-sections{
+	display: inline-flex;
+	font-family: 'Helvetica','Arial', sans-serif;
+	font-size: 20px; 
+	margin-left: 23%;
+}
+.boards-boreds{
+	padding: 10px;
+}
+.boards-pins{
+	padding: 10px;
+}
+.boards-tries{
+	padding: 10px;
+}
+.boards-fails{
+	padding: 10px;
+}
