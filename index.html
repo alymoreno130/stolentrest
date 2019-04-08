@@ -18,34 +18,187 @@
 		<link href="css/desktop-layout.css" rel="stylesheet"/>
 		<link href="css/tablet-layout.css" rel="stylesheet"/>
 		<link href="css/mobile-layout.css" rel="stylesheet"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+			
+			/* Full-width input fields */
+			input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid gray;
+			  box-sizing: border-box;
+			}
+
+			/* Set a style for all buttons */
+			button {
+			  background-color: #e60000;
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 100%;
+			}
+
+			button:hover {
+			  opacity: 0.8;
+			}
+
+			/* Extra styles for the cancel button */
+			.cancelbtn {
+			  width: auto;
+			  padding: 10px 18px;
+			  background-color: #f44336;
+			}
+
+			/* Center the image and position the close button */
+			.imgcontainer {
+			  text-align: center;
+			  margin: 24px 0 12px 0;
+			  position: relative;
+			}
+
+			img.avatar {
+			  width: 40%;
+			  border-radius: 50%;
+			}
+
+			.container {
+			  padding: 16px;
+			}
+
+			span.psw {
+			  float: right;
+			  padding-top: 16px;
+			}
+
+			/* The Popup (background) */
+			.popup {
+			  display: none; /* Hidden by default */
+			  position: fixed; /* Stay in place */
+			  z-index: 1; /* Sit on top */
+			  left: 0;
+			  top: 0;
+			  width: 100%; /* Full width */
+			  height: 100%; /* Full height */
+			  overflow: auto; /* Enable scroll if needed */
+			  background-color: rgb(0,0,0); /* Fallback color */
+			  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+			  padding-top: 60px;
+			}
+
+			/* Popup Content/Box */
+			.popup-content {
+			  background-color: white;
+			  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+			  border: 1px solid #888;
+			  width: 80%; /* Could be more or less, depending on screen size */
+			}
+
+			/* The Close Button (x) */
+			.close {
+			  position: absolute;
+			  right: 25px;
+			  top: 0;
+			  color: #000;
+			  font-size: 35px;
+			  font-weight: bold;
+			}
+
+			.close:hover,
+			.close:focus {
+			  color: red;
+			  cursor: pointer;
+			}
+
+			</style>
+
 	</head>
 
 	<body>
 
-		<div class="..." id="...">
-			<h1>SIGN UP</h1>
-			<form action="...">
-				Full name: <input type="text" name="Full name" value=""><br>
-				Email: <input type="text" name="Email" value=""><br>
-				Alternate email: <input type="text" name="Alternate email" value=""><br>
-				Address: <input type="text" name="Address" value=""><br>
-				Birthplace: <input type="text" name="Birthplace" value=""><br>
-				SSN: <input type="text" name="SSN" value=""><br>
-				First born child: <input type="text" name="First born child" value=""><br>
-				Bloodtype: <input type="text" name="Bloodtype" value=""><br>
-				Username: <input type="text" name="Username" value=""><br>
-				Password 1: <input type="text" name="Password 1" value=""><br>
-				Password 2: <input type="text" name="Password 2" value=""><br>
-				<input type="radio" name="origin" value="human"> Human<br>
-				<input type="radio" name="origin" value="inhuman"> Inhuman<br>
-				<center><input type="submit" value="Finally Log In"></center>
-			</form>
+		<center><h1 style="margin-top:25%">Welcome to Stolentrest</h1>
+		<p>Find someone else's ideas to copy</p>
+			
+		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;margin:auto;">Login</button></center>
 
-			<center><p><a href="...." target="_blank">Already have an account?</a></p></center>
-			<a href="homepage">log in</a>
+		<div id="id01" class="popup">
+
+		  <form class="popup-content animate" action="/action_page.php">
+		    <div class="imgcontainer">
+		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Popup">&times;</span>
+		      <img src="stolentrestlogo.jpg" alt="logo" class="avatar">
+		    </div>
+
+		    <div class="container">
+		      <label for="uname"><b>Full Name</b></label>
+		      <input type="text" placeholder="Enter Full Name" name="uname" required>
+
+		      <label for="uname"><b>Username</b></label>
+		      <input type="text" placeholder="Enter Username" name="uname" required>
+
+		      <label for="uname"><b>Mother's Maiden Name</b></label>
+		      <input type="text" placeholder="Enter Mother's Maiden Name" name="uname" required>
+
+		      <label for="uname"><b>Age</b></label>
+		      <input type="text" placeholder="Enter Age" name="uname" required>
+
+		      <label for="uname"><b>Email</b></label>
+		      <input type="text" placeholder="Enter Email" name="uname" required>
+
+		      <label for="uname"><b>Alternate Email</b></label>
+		      <input type="text" placeholder="Enter Alternate Email" name="uname" required>
+
+		      <label for="uname"><b>Address</b></label>
+		      <input type="text" placeholder="Enter Address" name="uname" required>
+
+		      <label for="uname"><b>Birthplace</b></label>
+		      <input type="text" placeholder="Enter Birthplace" name="uname" required>
+
+		      <label for="uname"><b>First Born Child</b></label>
+		      <input type="text" placeholder="Enter First Born Child" name="uname" required>
+
+		      <label for="uname"><b>Bloodtype</b></label>
+		      <input type="text" placeholder="Enter Bloodtype" name="uname" required>
+
+		      <label for="psw"><b>SSN</b></label>
+		      <input type="password" placeholder="Enter SSN" name="psw" required>
+
+		      <label for="psw"><b>Password 1</b></label>
+		      <input type="password" placeholder="Enter Password 1" name="psw" required>
+
+		      <label for="psw"><b>Password 2</b></label>
+		      <input type="password" placeholder="Enter Password 2" name="psw" required>
+
+		      <button type="submit">Login</button>
+		      <label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+		      </label>
+		    </div>
+
+		    <div class="container" style="background-color:#f1f1f1">
+		      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		      <span class="psw">Forgot <a href="#">password?</a></span>
+		    </div>
+		  </form>
 		</div>
 
-	</body>
+		<script>
+		// Get the popup
+		var popup = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the popup, close it
+		window.onclick = function(event) {
+		    if (event.target == popup) {
+			popup.style.display = "none";
+		    }
+		}
+		</script>
+
+</body>
 	
 
 </html> 
