@@ -322,7 +322,7 @@ p{
 }
 
 .boards-images{
-	width: 80%;
+	width: 70%;
 	height: auto;
 }
 
@@ -337,13 +337,17 @@ p{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 15px; 
 	color: lightgrey;
-	text-align: left;
-	margin-left: 55px;
+	text-align: center;
+/*	margin-left: 55px;*/
 	margin-top: -35px;
 }
 .boards-titles{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 25px; 
-	text-align: left;
-	margin-left: 55px;
+	text-align: center;
+	/*margin-left: 55px;*/
+}
+
+.boards-width{
+	width: 
 }
