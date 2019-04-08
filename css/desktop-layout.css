@@ -108,8 +108,6 @@
 
 
 
-}
-
 .pop-up-container{
 
 	position:absolute;
@@ -184,14 +182,14 @@
 
 .boards-name{
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 36px;
+	font-size: 50px;
 	justify-content: center;
 	margin-top:12%;
 	margin-left: 25%;
 }
 .boards-following{
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 15px;
+	font-size: 20px;
 	margin-left: 26%;
 	margin-top: -20px;
 }
@@ -201,5 +199,4 @@
 	width: auto;
 	margin-right: 30%;
 	margin-top: -130px;
->>>>>>> master
-}
+
