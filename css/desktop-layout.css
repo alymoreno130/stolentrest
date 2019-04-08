@@ -97,6 +97,7 @@
   display: inline-block;
   margin-left: 3.33%;
   margin-right: 3.33%;
+   vertical-align: top;
 }
 
 .image-column-right{
