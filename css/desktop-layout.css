@@ -96,8 +96,6 @@
 
 
 
-}
-
 .pop-up-container{
 
 	position:absolute;
@@ -232,4 +230,6 @@
 	font-size: 25px; 
 	text-align: left;
 	margin-left: 55px;
+}
+
 }
