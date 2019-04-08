@@ -76,7 +76,7 @@
 	margin-left: 4.5%;
 	border: 1.5px solid #ef233c;
 	border-radius: 15px;
-	margin-top: 100px;
+	margin-top: 130px;
 
 }
 
@@ -204,11 +204,12 @@
 .indv-container{
 
 	position:absolute;
+	margin-left:8%;
 	top:100px;
 	width:80%;
 	/*margin-left:10%;*/
 	background-color:white;
-	border:1px solid red;
+	border:1px solid white;
 	height:90vh;
 	z-index:10000;
 	font-size: 10px;
@@ -241,7 +242,7 @@
 	background-color: red;
 	color: white;
 	font-size: 20px;
-	padding:20px;
+	padding:10px;
 	top:400px;
 }
 
@@ -321,7 +322,7 @@ p{
 }
 
 .boards-images{
-	width: 80%;
+	width: 70%;
 	height: auto;
 }
 
@@ -336,13 +337,18 @@ p{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 15px; 
 	color: lightgrey;
-	text-align: left;
-	margin-left: 55px;
+	text-align: center;
+/*	margin-left: 55px;*/
 	margin-top: -35px;
 }
 .boards-titles{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 25px; 
-	text-align: left;
-	margin-left: 55px;
+	text-align: center;
+	/*margin-left: 55px;*/
+}
+
+.boards-width{
+	width: 
+}
 }
