@@ -194,6 +194,26 @@
 .boards-subheading{
 	padding: 10px;
 }
+.boards-images{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 25px;
+	width: 90%;
+	height: auto;
+}
+
+.boards-images:hover{
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #edf2f4;
+	border: 1px solid lightgray;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
 .boards-img-section{
 	display: inline-flex;
 	padding: 10px;
@@ -201,6 +221,4 @@
 	text-align: center;
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 30px; 
-
 }
-
