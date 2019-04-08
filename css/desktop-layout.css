@@ -74,8 +74,10 @@
 .width90{
 	width: 90%;
 	margin-left: 4.5%;
-	border: 1px solid red;
+	border: 1.5px solid #ef233c;
+	border-radius: 15px;
 	margin-top: 100px;
+
 }
 
 .image-column-left{
@@ -83,10 +85,13 @@
   padding: 15px;
   width: 28%;
   display: inline-block;
+  clear: all;
+  vertical-align: top;
+
 }
 
 .image-column-center{
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 15px;
   width: 28%;	
   display: inline-block;
@@ -95,7 +100,7 @@
 }
 
 .image-column-right{
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 15px;
   width: 28%;
   display: inline-block;
