@@ -82,7 +82,7 @@
 
 .image-column-left{
   margin-top: 0px;
-  padding: 15px;
+  padding: 10px;
   width: 28%;
   display: inline-block;
   clear: all;
@@ -92,7 +92,7 @@
 
 .image-column-center{
   margin-top: 0px;
-  padding: 15px;
+  padding: 10px;
   width: 28%;	
   display: inline-block;
   margin-left: 3.33%;
@@ -101,7 +101,7 @@
 
 .image-column-right{
   margin-top: 0px;
-  padding: 15px;
+  padding: 10px;
   width: 28%;
   display: inline-block;
 }
