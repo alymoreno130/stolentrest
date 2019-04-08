@@ -42,7 +42,7 @@
 }
 
 .nav-blocks{
-	display:inline-block;
+	display:block;
 	margin:10px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	size: 35;
@@ -89,7 +89,7 @@
   margin-top: 0px;
   padding: 15px;
   width: 28%;
-  display: inline-block;
+  display: block;
   clear: all;
   vertical-align: top;
 
@@ -108,7 +108,7 @@
   margin-top: 0px;
   padding: 15px;
   width: 28%;
-  display: inline-block;
+  display: block;
 }
 
 
@@ -143,7 +143,7 @@
 }
 
 .btn{
-	display:inline-block;
+	display: block;
 	padding:10px;
 	background-color:#e2e2e2;
 	border-radius:5px;
@@ -333,7 +333,7 @@ p{
 }
 
 .boards-img-section{
-	display: inline-flex;
+	display: block;
 	justify-content: space-between;
 	text-align: center;
 	font-family: 'Helvetica','Arial', sans-serif;
