@@ -27,6 +27,11 @@
 	height: 50px;
 }
 
+#round-logo2{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
 .float-right{
 	float:right;
 }
@@ -34,6 +39,8 @@
 .nav-blocks{
 	display:inline-block;
 	margin:10px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 35;
 }
 
 
@@ -72,7 +79,7 @@
 }
 
 .image-column-left{
-  margin-top: 5px;
+  margin-top: 0px;
   padding: 15px;
   width: 28%;
   display: inline-block;
