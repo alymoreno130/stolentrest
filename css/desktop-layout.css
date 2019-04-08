@@ -192,13 +192,15 @@
 }
 .boards-subheading{
 	padding: 10px;
-
+	color: lightgrey;
 }
 .boards-subheading:hover{
+	color: black;
 	text-decoration: underline;
 }
 .boards-active{
 	padding: 10px;
+	color: black;
 	background-color: lightgrey;
 	border-radius: 15px;
 }
