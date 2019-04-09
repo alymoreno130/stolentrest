@@ -79,7 +79,7 @@
 	margin-top: 100px;
 
 }
-
+/*
 .image-column-left{
   margin-top: 0px;
   padding: 10px;
@@ -87,24 +87,27 @@
   display: inline-block;
   clear: all;
   vertical-align: top;
+  height: 100%;
 
-}
+}*/
 
-.image-column-center{
+/*.image-column-center{
   margin-top: 0px;
   padding: 10px;
   width: 28%;	
   display: inline-block;
   margin-left: 3.33%;
   margin-right: 3.33%;
-}
+  height:100%;
+}*/
 
-.image-column-right{
+/*.image-column-right{
   margin-top: 0px;
+  height:100%;
   padding: 10px;
   width: 28%;
   display: inline-block;
-}
+}*/
 
 
 
