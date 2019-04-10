@@ -20,7 +20,7 @@ font-family: 'Helvetica', 'Arial', sans-serif;
 /**/
 h1{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 40;
+	size: 50;
 }
 
 
@@ -34,7 +34,20 @@ h3{
 	size: 30;
 }
 
+h4{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 25;
+}
 
+h5{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 20;
+}
+
+h6{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	size: 20;
+}
 
 
 
