@@ -225,23 +225,26 @@ a.nav-blocks:hover {
 
 
 
-
+/*Boards page stuff*/
 
 .boards-header{
 	width: 50%;
 	margin-left: 23%;
 	margin-top: 150px;
+	border: 1.5px solid #ef233c;
+	border-radius: 15px;
 }
 
 .boards-name{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 50px;
-	justify-content: center;
+	justify-content: left;
 	margin-left: 0%;
 }
 .boards-following{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 20px;
+
 
 }
 .prof-pic{
@@ -332,9 +335,9 @@ p{
 .boards-name{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 50px;
-	justify-content: center;
+	justify-content: left;
 	margin-top:12%;
-	margin-left: 25%;
+	margin-left: 0%;
 }
 .boards-following{
 	font-family: 'Helvetica','Arial', sans-serif;
@@ -371,27 +374,23 @@ p{
 	border-radius: 15px;
 }
 
-.boards-images{
+/*.boards-images{
 	width: 80%;
 	height: auto;
-}
+}*/
 
-.boards-img-section{
-	display: inline-flex;
-	justify-content: space-between;
+/*.boards-img-section{
+	display: inline-block;
 	text-align: center;
-}
+}*/
 
 .boards-number{
 	color: lightgrey;
 	text-align: center;
-	/*margin-left: 55px;*/
 	margin-top: 20px;
 }
 .boards-titles{
- 
 	text-align: center;
-	/*margin-left: 55px;*/
 }
 
 
