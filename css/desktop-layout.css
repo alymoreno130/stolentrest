@@ -58,7 +58,23 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-bottom: 25px;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 28%;
+	display: inline-block;
+	vertical-align: top;
+
 }
+
+.width90{
+	width: 90%;
+	margin-left: 4.5%;
+	border: 1.5px solid #ef233c;
+	border-radius: 15px;
+	margin-top: 100px;
+	padding-top: 15px;
+}
+
 
 .image-box:hover{
 	padding-bottom: 15px;
@@ -71,14 +87,8 @@
 	margin-bottom: 25px;
 }
 
-.width90{
-	width: 90%;
-	margin-left: 4.5%;
-	border: 1.5px solid #ef233c;
-	border-radius: 15px;
-	margin-top: 100px;
 
-}
+
 /*
 .image-column-left{
   margin-top: 0px;
@@ -348,4 +358,9 @@ p{
 	font-size: 25px; 
 	text-align: left;
 	margin-left: 55px;
+}
+
+
+
+
 }
