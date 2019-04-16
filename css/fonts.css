@@ -49,8 +49,12 @@ h6{
 	size: 20;
 }
 
-
-
+p{
+	font-size: 22px;
+	font-family: 'Helvetica', 'Arial', sans-serif;	
+	padding:10px;
+	border-bottom: 1px solid black;
+}
 
 /*Text IDs*/
 #center-text{
