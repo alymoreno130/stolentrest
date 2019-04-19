@@ -86,7 +86,7 @@
 	margin-left:77%;
 	background-color:white;
 	width:17%;
-	height:47vh;
+	height:50vh;
 
 }
 
@@ -302,6 +302,13 @@
 	top:400px;
 }
 
+.save:hover {
+/*	color: #555667;*/
+	text-decoration: none;
+	cursor:pointer;
+	opacity:.5;
+}
+
 
 
 
@@ -331,10 +338,18 @@
 	border-bottom: none;
 	border-radius:25px;
 
+}
+
+.more:hover {
+/*	color: #555667;*/
+	text-decoration: none;
+	cursor:pointer;
+	opacity:.5;
+}
+
 	
 	
 
-}
 .boards-name{
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 50px;
