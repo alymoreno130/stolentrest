@@ -84,10 +84,11 @@
 	position: fixed;
 	top:75px;
 	border:1px solid red;
-	margin-left:50%;
+	margin-left:74%;
 	background-color:white;
-	width:40%;
-	height:70vh;
+	width:20%;
+	height:80vh;
+	text-align: center;
 
 }
 
@@ -120,13 +121,14 @@
 
 #notif-inline-block{
 	display:inline-block;
-	padding:10px;
+	padding:5px;
+	padding-bottom: 2px;
 
 }
 
 .notif-image{
 	
-	width:40%;
+	width:30%;
 	padding-right: 5px;
 	
 	/*height:55px;*/

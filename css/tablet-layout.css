@@ -94,10 +94,11 @@
 	position: fixed;
 	top:75px;
 	border:1px solid red;
-	margin-left:35%;
+	margin-left:55%;
 	background-color:white;
-	width:55%;
-	height:60vh;
+	width:40%;
+	height:80vh;
+	text-align: center;
 
 }
 
@@ -144,6 +145,11 @@
 
 #notifpadding{
 	padding:10px;
+	
+}
+
+#pop-up-btn-nav{
+	font-size:20px;
 }
 
 

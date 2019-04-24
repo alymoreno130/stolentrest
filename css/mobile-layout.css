@@ -86,14 +86,19 @@
 
 }
 
+#pop-up-btn-nav{
+	font-size:14px;
+}
+
 #pop-up-1{
 	position: fixed;
 	top:75px;
 	border:1px solid red;
-	margin-left:20%;
+	margin-left:45%;
 	background-color:white;
-	width:68%;
-	height:60vh;
+	width:50%;
+	height:80vh;
+	text-align: center;
 
 }
 
@@ -128,11 +133,15 @@
 	display:flex;
 	padding:10px;
 
+
 }
+
+
 
 .notif-image{
 	
-	width:75px;
+	width:60px;
+	height:90px;
 	padding-right: 5px;
 	
 	/*height:55px;*/
@@ -140,6 +149,7 @@
 
 #notifpadding{
 	padding:10px;
+	font-size: 14px;
 }
 
 
