@@ -20,33 +20,33 @@ font-family: 'Helvetica', 'Arial', sans-serif;
 /**/
 h1{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 50;
+	size: 50px;
 }
 
 
 h2{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 35;
+	size: 35px;
 }
 
 h3{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 30;
+	size: 30px;
 }
 
 h4{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 25;
+	size: 25px;
 }
 
 h5{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 20;
+	size: 20px;
 }
 
 h6{
 	font-family: 'Helvetica', 'Arial', sans-serif;
-	size: 20;
+	size: 15px;
 }
 
 p{
