@@ -34,7 +34,7 @@
 		<img id="round-logo" src="images/stolentrestlogo.jpg" style="position: relative; top: 0px">
 		<div class="float-right">
 			<a class="nav-blocks" href="homepage.html" ><h2>Home</h2></a>
-			<img class="nav-blocks" id="round-logo2" src="images/profilelogo.png" style="position: relative; top: 18px">
+			<a class="nav-blocks" href="boards.html"><img class="nav-blocks" id="round-logo2" src="images/profilelogo.png" style="position: relative; top: 13px"></a>
 			<a class="nav-blocks" href="boards.html"><h2>Following</h2></a>
 			<!-- link notifications to popup -->
 			<h2 class="nav-blocks" id="pop-up-btn-nav" style="color: #2b2d42;">Notifications</h2>  
@@ -43,15 +43,15 @@
 	</div>
 </div>
 
-
+		<body>
 
 	<!-- Individual Page Content -->
-		<div class="indvbox">
-			<div class="indv-container">
+		<div class="indvbox" id="indv-container">
+			<!-- <div class="indv-container"> -->
 				<img class="indv-image" src="images/masonjarherb.jpg">
 
 				<div class="indvbox">
-				<h8 class="save"> save </h8>
+				<a href="https://www.pinterest.com/pin/177118197822189856/?lp=true" style="text-decoration: none"><h8 class="save"> save </h8></a>
 				<h7 class="indvtitle">MASON JAR HERB GARDEN</h7>
 				<p>--Mason Jar Herb Garden-- I can not wait to share my latest project. I probably say that for each post, but I can’t help it. It is completely true. I get so excited when I make something new that I just can not wait to share it! </p> 
 				<p class="comments">COMMENTS</p>
@@ -62,11 +62,18 @@
 				<div class="indvflex">
 				<img class="icon" src="images/profilelogo.png">
 				<p> omg, this will look so perfect next my 50 other mason jars, love it! </p>
+				<!-- <div class="more"> -->
+				</div>
+				<div class="indvflex">
+				<a href="https://www.pinterest.com/pin/177118197822189856/?lp=true" style="text-decoration: none">
+				<p class="more"> More like this </p> </a>
+			</div>
 			</div>
 				</div>
-			</div>
-
-			<p class="more"> More like this </p>
+			<!-- <div class="more">
+			
+				<a href="https://www.pinterest.com/pin/177118197822189856/?lp=true">
+				<p class="more"> More like this </p> </a> -->
 			</div>
 
 
@@ -124,6 +131,12 @@
 
 
 	</script>
+
+	<script>
+function myFunction() {
+  document.getElementById("indvbox").style.zIndex = "-1";
+}
+</script>
 
 
 
