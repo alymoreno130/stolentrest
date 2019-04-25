@@ -238,25 +238,7 @@
 	padding-top: 15px;
 }
 
-.boards-name{
-	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 50px;
-	justify-content: left;
-	margin-left: 0%;
-}
-.boards-following{
-	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 20px;
 
-
-}
-.prof-pic{
-	float: right;
-	height: 150px;
-	width: auto;
-	margin-right: 0%;
-
-}
 
 #indv-container{
 
@@ -360,32 +342,29 @@
 	
 
 .boards-name{
+	display: inline-flex;
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 20px;
-	justify-content: left;
+	font-size: 30px;
 	margin-top:12%;
-	margin-left: 0%;
+	margin-left: 12%;
 }
 .boards-following{
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 10px;
-	margin-left: 26%;
+	font-size: 15px;
 	margin-top: 10px;
 }
 .prof-pic{
-	float: right;
-	height: 150px;
+	display: inline-flex;
+	height: 90px;
 	width: auto;
-	margin-right: 30%;
-	margin-top: -130px;
-	border-radius: 50px;
+	margin-left:35%;
 }
 .boards-sections{
 	display: block;
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 25px; 
-	margin-left: 23%;
+	font-size: 20px; 
 	text-decoration: none;
+	text-align: center;
 }
 .boards-subheading{
 	padding: 10px;
@@ -403,6 +382,8 @@
 	border-radius: 15px;
 	height: 30px;
 	width: 120px;
+	text-align: center;
+	margin-left: 30%;
 }
 
 /*.boards-images{
