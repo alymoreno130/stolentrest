@@ -352,20 +352,6 @@
 
 	
 	
-
-.boards-name{
-	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 50px;
-	justify-content: left;
-	margin-top:12%;
-	margin-left: 0%;
-}
-.boards-following{
-	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 20px;
-	margin-left: 26%;
-	margin-top: 10px;
-}
 .prof-pic{
 	float: right;
 	height: 150px;

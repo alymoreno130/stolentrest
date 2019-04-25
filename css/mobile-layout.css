@@ -361,14 +361,14 @@
 
 .boards-name{
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 50px;
+	font-size: 20px;
 	justify-content: left;
 	margin-top:12%;
 	margin-left: 0%;
 }
 .boards-following{
 	font-family: 'Helvetica','Arial', sans-serif;
-	font-size: 20px;
+	font-size: 10px;
 	margin-left: 26%;
 	margin-top: 10px;
 }
@@ -381,7 +381,7 @@
 	border-radius: 50px;
 }
 .boards-sections{
-	display: inline-flex;
+	display: block;
 	font-family: 'Helvetica','Arial', sans-serif;
 	font-size: 25px; 
 	margin-left: 23%;
@@ -401,6 +401,8 @@
 	color: black;
 	background-color: lightgrey;
 	border-radius: 15px;
+	height: 30px;
+	width: 120px;
 }
 
 /*.boards-images{
