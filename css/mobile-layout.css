@@ -86,14 +86,20 @@
 
 }
 
+#pop-up-btn-nav{
+	font-size:14px;
+}
+
 #pop-up-1{
 	position: fixed;
 	top:75px;
 	border:1px solid red;
-	margin-left:20%;
+	margin-left:45%;
+	padding-right: 5px;
 	background-color:white;
-	width:68%;
-	height:60vh;
+	width:50%;
+	height:80vh;
+
 
 }
 
@@ -125,23 +131,62 @@
 }
 
 #notif-inline-block{
-	display:flex;
-	padding:10px;
+	display:inline-flex;
+	padding:1px;
+	padding-bottom: 2px;
 
 }
 
 .notif-image{
 	
-	width:75px;
-	padding-right: 5px;
+	width:50px;
+	padding-right: 20px;
+/*	padding-left: 5px;*/
+
 	
 	/*height:55px;*/
 }
 
-#notifpadding{
-	padding:10px;
+.notif-image:hover{
+	text-decoration: none;
+	cursor:pointer;
+	opacity:.5;
+
 }
 
+.notif-image2{
+	
+	width:70px;
+	padding-right: 20px;
+/*	padding-left: 5px;*/
+	
+
+	
+	/*height:55px;*/
+}
+
+.notif-image2:hover{
+	text-decoration: none;
+	cursor:pointer;
+	opacity:.5;
+
+}
+
+
+
+#notifpadding{
+	padding-left:20px;
+
+}
+.hover{
+
+}
+
+.hover:hover {
+	text-decoration: none;
+	cursor:pointer;
+	opacity:.5;
+}
 
 
 /*Image Gallery Stuff*/
@@ -249,11 +294,11 @@
 	margin-left:10%;
 	/*background-color:none;*/
 	border:1px solid red;
-	height:90vh;
+	height:200vh;
 	font-size: 30px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	border-radius:25px;
-	display:inline-flex;
+	/*display:inline-flex;*/
 	padding:30px;
 	/*display:block-flex;*/
 }
@@ -268,7 +313,8 @@
 .indv-image{
 	top:40px;
 	padding:40px;
-	width: 30%;
+	width: 300px;
+	height:487.5px;
 	border-radius:20%;
 	display:inline-flex;
 	
@@ -281,15 +327,16 @@
 	border-radius:25px;
 	display:inline-flex;
 	padding: 10px;
+	padding-top: 40px;
 	top:200px;
 }
 
 .save{
-	border-radius:15px;
+	border-radius:10px;
 	background-color: red;
 	color: white;
-	font-size: 30px;
-	padding:20px;
+	font-size: 15px;
+	padding:15px;
 	top:400px;
 }
 
@@ -318,7 +365,7 @@
 }
 
 .more{
-	font-size: 50px;
+	font-size: 20px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	text-align: center;
 	margin-left: 70px;
@@ -327,7 +374,7 @@
 	color:white;
 	background-color:red;
 	border-bottom: none;
-	border-radius:25px;
+	border-radius:10px;
 
 }
 
