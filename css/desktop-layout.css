@@ -342,7 +342,7 @@
 	position:absolute;
 	z-index: -1;
 	top:100px;
-	width:84%;
+	width:78%;
 	margin-left:10%;
 	/*background-color:none;*/
 	border:1px solid red;
@@ -364,10 +364,13 @@
 
 .indv-image{
 	top:40px;
-	padding:40px;
+/*	padding:40px;
 	width: 400px;
-	height:650px;
-	border-radius:15%;
+	height:650px;*/
+	width: 45%;
+	height: 45%;
+	margin-right: 3%;
+	border-radius:10%;
 	display:inline-flex;
 	
 }
